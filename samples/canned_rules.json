@@ -1,0 +1,123 @@
+{
+  "rules": [
+    {
+      "id": "R1",
+      "description": "beneficiary under 18 on the date of service",
+      "source": "1.2",
+      "conditions": [
+        {
+          "field": "age",
+          "operator": "<",
+          "value": 18
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "Beneficiary is under 18 on the date of service. LCD L33822 criterion 1.2 requires age 18 or older."
+    },
+    {
+      "id": "R2",
+      "description": "diagnosis code outside Section 5",
+      "source": "5",
+      "conditions": [
+        {
+          "field": "diagnosis_code",
+          "operator": "not_in",
+          "value": [
+            "E10.9",
+            "E11.9",
+            "E11.65",
+            "E13.9"
+          ]
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "Reported ICD-10-CM code is not listed in Section 5. Covered codes are E10.9, E11.9, E11.65, E13.9."
+    },
+    {
+      "id": "R3",
+      "description": "HCPCS code outside Section 4",
+      "source": "4",
+      "conditions": [
+        {
+          "field": "procedure_code",
+          "operator": "not_in",
+          "value": [
+            "K0554",
+            "K0553",
+            "A4239",
+            "E2103"
+          ]
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "Billed HCPCS code is outside the scope of LCD L33822 and is denied as not covered. Covered codes are K0554, K0553, A4239, E2103."
+    },
+    {
+      "id": "R4",
+      "description": "not treated with insulin by injections or pump",
+      "source": "1.3",
+      "conditions": [
+        {
+          "field": "insulin_regimen",
+          "operator": "not_in",
+          "value": [
+            "mdi",
+            "pump"
+          ]
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "Diabetes is managed without insulin therapy. Criterion 1.3 requires three or more daily injections or an insulin infusion pump."
+    },
+    {
+      "id": "R5",
+      "description": "fewer than 4 fingerstick tests per day",
+      "source": "1.4",
+      "conditions": [
+        {
+          "field": "daily_bg_tests",
+          "operator": "<",
+          "value": 4
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "Documented fingerstick testing is below the minimum of 4 per day required by criterion 1.4 in revision 2.0."
+    },
+    {
+      "id": "R6",
+      "description": "no documented failure of prior therapy",
+      "source": "1.7",
+      "conditions": [
+        {
+          "field": "prior_therapy_failed",
+          "operator": "==",
+          "value": false
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "Medical record does not document failure of prior therapy over a trial of at least 3 months, required by criterion 1.7."
+    },
+    {
+      "id": "R7",
+      "description": "no practitioner visit within 6 months of the order",
+      "source": "1.5",
+      "conditions": [
+        {
+          "field": "visit_within_6mo",
+          "operator": "==",
+          "value": false
+        }
+      ],
+      "decision": "DENY",
+      "denial_reason": "No in-person visit with the treating practitioner within the 6 months prior to the written order, required by criterion 1.5."
+    },
+    {
+      "id": "R8",
+      "description": "meets all Section 1 coverage indications",
+      "source": "1",
+      "conditions": [],
+      "decision": "APPROVE",
+      "denial_reason": ""
+    }
+  ]
+}

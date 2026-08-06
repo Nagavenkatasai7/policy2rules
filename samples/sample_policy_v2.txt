@@ -1,0 +1,100 @@
+LOCAL COVERAGE DETERMINATION (LCD)
+Continuous Glucose Monitors (CGM) and Related Supplies
+LCD ID: L33822
+Revision: 2.0
+Effective Date: July 1, 2025
+Contractor: National Part B MAC, Jurisdiction M
+Status: Active
+
+1. COVERAGE INDICATIONS
+
+A continuous glucose monitor (CGM) and related supplies are covered as
+durable medical equipment when all of the following criteria are met and
+documented in the beneficiary's medical record:
+
+  1.1 The beneficiary has a diagnosis of diabetes mellitus supported by one
+      of the ICD-10-CM codes listed in Section 5.
+
+  1.2 The beneficiary is 18 years of age or older on the date of service.
+
+  1.3 The beneficiary is being treated with insulin, either by multiple
+      daily injections (three or more injections per day) or by continuous
+      subcutaneous insulin infusion pump.
+
+  1.4 The beneficiary performs, or has a caregiver who performs, a minimum
+      of 4 fingerstick blood glucose tests per day and the frequency is
+      documented in the treating practitioner's records.
+
+  1.5 The beneficiary had an in-person visit with the treating practitioner
+      within the 6 months prior to the date of the written order to evaluate
+      diabetes control and to determine that a CGM is medically necessary.
+
+  1.6 The beneficiary or the beneficiary's caregiver has been trained on the
+      use of the device, including sensor insertion, calibration, and
+      interpretation of alerts, and the training is attested to by the
+      supplier.
+
+  1.7 The medical record documents failure of prior therapy, meaning the
+      beneficiary did not achieve adequate glycemic control on a regimen
+      guided by self-monitored fingerstick testing during a trial period of
+      at least 3 months.
+
+2. LIMITATIONS
+
+  2.1 A CGM is not covered for a beneficiary whose diabetes is managed by
+      diet, exercise, or oral agents alone with no insulin therapy.
+
+  2.2 A CGM is not covered for gestational diabetes or for prediabetes.
+
+  2.3 More than one CGM receiver per beneficiary per five years is not
+      covered absent documentation of loss or irreparable damage.
+
+  2.4 Supplies billed in excess of a one month supply per month are denied
+      as not reasonable and necessary.
+
+  2.5 Claims that do not meet the criteria in Section 1 will be denied as
+      not reasonable and necessary.
+
+3. DOCUMENTATION REQUIREMENTS
+
+  3.1 A standard written order signed and dated by the treating practitioner
+      must be on file prior to claim submission.
+
+  3.2 Progress notes from the in-person visit described in 1.5, including
+      the fingerstick testing frequency described in 1.4.
+
+  3.3 The insulin regimen, including type and number of daily injections or
+      pump settings.
+
+  3.4 A supplier attestation of beneficiary or caregiver training.
+
+  3.5 Records of the prior therapy trial described in 1.7, including the
+      glycemic results that establish inadequate control.
+
+  3.6 Documentation must be made available to the contractor upon request
+      and must be retained for seven years.
+
+4. APPLICABLE HCPCS CODES
+
+  K0554  Receiver, dedicated, for use with therapeutic CGM system
+  K0553  Supply allowance for therapeutic CGM system, one month supply
+  A4239  Supply allowance for non-adjunctive, non-implanted CGM, one month
+  E2103  Non-adjunctive, non-implanted continuous glucose monitor or receiver
+
+5. APPLICABLE ICD-10-CM CODES
+
+  E10.9   Type 1 diabetes mellitus without complications
+  E11.9   Type 2 diabetes mellitus without complications
+  E11.65  Type 2 diabetes mellitus with hyperglycemia
+  E13.9   Other specified diabetes mellitus without complications
+
+6. CODING GUIDANCE
+
+  6.1 The ICD-10-CM code reported on the claim must be one of the codes in
+      Section 5 and must be supported by the medical record.
+
+  6.2 Claims for HCPCS codes not listed in Section 4 are outside the scope
+      of this policy and will be denied as not covered.
+
+  6.3 The KX modifier may be appended only when all criteria in Section 1
+      are met and the supporting documentation is on file.
