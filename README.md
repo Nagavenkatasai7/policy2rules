@@ -8,12 +8,16 @@ no API key is configured, so every tab works)
 
 ## Deliverables
 
-| Deliverable | File |
+All files are in the [`deliverables/`](deliverables) folder. GitHub does not preview Word,
+PowerPoint, or video files in the browser - use the direct links below (or the Raw / download
+button on any file page) to download and open them.
+
+| Deliverable | Direct download |
 |---|---|
-| Written report | [deliverables/Chennu_Content_Management_Health_Care.docx](deliverables/Chennu_Content_Management_Health_Care.docx) |
-| Slide deck | [deliverables/policy2rules_overview.pptx](deliverables/policy2rules_overview.pptx) |
-| Video presentation | [deliverables/policy2rules_presentation.mp4](deliverables/policy2rules_presentation.mp4) |
-| Resume | [deliverables/NAGA VENKATA SAI CHENNU_Intern - Generative AI_Agentic AI_Research_20260806.docx](deliverables/NAGA%20VENKATA%20SAI%20CHENNU_Intern%20-%20Generative%20AI_Agentic%20AI_Research_20260806.docx) |
+| Written report | [Chennu_Content_Management_Health_Care.docx](https://raw.githubusercontent.com/Nagavenkatasai7/policy2rules/main/deliverables/Chennu_Content_Management_Health_Care.docx) |
+| Slide deck | [policy2rules_overview.pptx](https://raw.githubusercontent.com/Nagavenkatasai7/policy2rules/main/deliverables/policy2rules_overview.pptx) |
+| Video presentation (4:59, MP4) | [policy2rules_presentation.mp4](https://raw.githubusercontent.com/Nagavenkatasai7/policy2rules/main/deliverables/policy2rules_presentation.mp4) |
+| Resume | [NAGA VENKATA SAI CHENNU_Intern - Generative AI_Agentic AI_Research.docx](https://raw.githubusercontent.com/Nagavenkatasai7/policy2rules/main/deliverables/NAGA%20VENKATA%20SAI%20CHENNU_Intern%20-%20Generative%20AI_Agentic%20AI_Research_20260806.docx) |
 | Proof of concept | `app.py` in this repo, deployed at the live demo link above |
 
 Prepared by Naga Venkata Sai Chennu, George Mason University.
