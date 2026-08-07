@@ -3,6 +3,21 @@
 Hackathon proof of concept: turn a health insurance coverage policy into machine-executable rules
 with an LLM, then run claims against those rules in plain Python.
 
+**Live demo:** https://policy2rules.streamlit.app (runs in demo mode against built-in samples when
+no API key is configured, so every tab works)
+
+## Deliverables
+
+| Deliverable | File |
+|---|---|
+| Written report | [deliverables/Chennu_Content_Management_Health_Care.docx](deliverables/Chennu_Content_Management_Health_Care.docx) |
+| Slide deck | [deliverables/policy2rules_overview.pptx](deliverables/policy2rules_overview.pptx) |
+| Video presentation | [deliverables/policy2rules_presentation.mp4](deliverables/policy2rules_presentation.mp4) |
+| Resume | [deliverables/NAGA VENKATA SAI CHENNU_Intern - Generative AI_Agentic AI_Research_20260806.docx](deliverables/NAGA%20VENKATA%20SAI%20CHENNU_Intern%20-%20Generative%20AI_Agentic%20AI_Research_20260806.docx) |
+| Proof of concept | `app.py` in this repo, deployed at the live demo link above |
+
+Prepared by Naga Venkata Sai Chennu, George Mason University.
+
 Three tabs:
 
 1. **Summarize** - structured summary of a pasted policy: covered population, criteria, exclusions, codes.
